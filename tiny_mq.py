@@ -7,6 +7,7 @@ import json
 import os
 import time
 import uuid
+from collections.abc import Coroutine
 from dataclasses import dataclass, field
 from enum import IntEnum
 from pathlib import Path
